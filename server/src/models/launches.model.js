@@ -24,6 +24,8 @@ function addNewLaunch(launch) {
   launches.set(
     latestFlightNumber, 
     Object.assign(launch, {
+      success: true,
+      upcoming: true,
       customers: ['NASA', 'Wildman'],
       flightNumber: latestFlightNumber,
     })  
@@ -32,4 +34,5 @@ function addNewLaunch(launch) {
 
 module.exports = {
   getAllLaunches,
+  addNewLaunch,
 };
