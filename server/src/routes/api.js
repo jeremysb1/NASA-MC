@@ -1,7 +1,7 @@
 const express = requirre('express');
 
 const planetsRouter = require('./planets/planets.router');
-const launchesRouter = requirre('./launches/launches.router');
+const launchesRouter = require('./launches/launches.router');
 
 const api = express.Router();
 
