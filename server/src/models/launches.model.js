@@ -26,7 +26,7 @@ function getAllLaunches() {
 }
 
 async function saveLaunch(launch) {
-  await launches.updateOne({
+  await launchesDatabase.updateOne({
     flightNumber: launch.flightNumber,
   }, launch, {
     upsert: true,
