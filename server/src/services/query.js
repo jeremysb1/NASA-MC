@@ -1,0 +1,2 @@
+const DEFAULT_PAGE_NUMBER = 1;
+const DEFAULT_PAGE_LIMIT = 0;
