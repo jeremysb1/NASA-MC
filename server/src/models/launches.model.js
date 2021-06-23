@@ -21,8 +21,12 @@ function existsLaunchWithId(launchId) {
   return launches.has(launchId);
 }
 
-function getAllLaunches() {
-  return Array.from(launches.values());
+async function getAllLaunches(skip, limit) {
+  return await launchesDatabase
+    .find({}, { '_id': 0, '__v': 0 })
+    .sort({ flightNumber: 1 })
+    .skip(skip)
+    .limit(limit);
 }
 
 async function saveLaunch(launch) {
