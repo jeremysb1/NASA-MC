@@ -1,4 +1,5 @@
 const launchesDatabase = require('./launches.mongo');
+const planets = require('./planets.mongo');
 
 const launches = new Map();
 
@@ -21,6 +22,18 @@ function existsLaunchWithId(launchId) {
   return launches.has(launchId);
 }
 
+async function getLatestFlightNumber() {
+  const latestLaunch = await launchesDatabase
+    .findOne()
+    .sort('-flightNumber');
+
+    if(!latestLaunch) {
+      return DEFAULT_FLIGHT_NUMBER;
+    }
+
+    return latestLaunch.flightNumber;
+}
+
 async function getAllLaunches(skip, limit) {
   return await launchesDatabase
     .find({}, { '_id': 0, '__v': 0 })
@@ -35,6 +48,27 @@ async function saveLaunch(launch) {
   }, launch, {
     upsert: true,
   });
+}
+
+async function scheduleNewLaunch(launch) {
+  const planet = await planets.findOne({
+    keplerName: launch.target,
+  });
+
+  if(!planet) {
+    throw new Error('No matching planter found!')
+  }
+
+  const newFlightNumber = await getLatestFLightNumber() + 1;
+
+  const newLaunch = Object.assign(launch, {
+    success: true,
+    upcoming: true,
+    customers: ['NASA', 'Wildman'],
+    flightNumber: newFlightNumber,
+  });
+
+  await saveLaunch(newLaunch);
 }
 
 function addNewLaunch(launch) {
