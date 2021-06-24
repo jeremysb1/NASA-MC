@@ -12,6 +12,8 @@ This application allows users to schedule launch missions, and view upcoming and
 
 ![Homepage](https://github.com/jeremysb1/png_images/blob/main/homepage.png "Homepage")
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+##Scheduled Missions
+
+![Scheduled Missions](https://github.com/jeremysb1/png_images/blob/main/scheduled.png "Scheduled Missions")
 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
