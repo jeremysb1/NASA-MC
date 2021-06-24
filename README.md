@@ -12,7 +12,7 @@ This application allows users to schedule launch missions, and view upcoming and
 
 ![Homepage](https://github.com/jeremysb1/png_images/blob/main/homepage.png "Homepage")
 
-##Scheduled Missions
+## Scheduled Missions
 
 ![Scheduled Missions](https://github.com/jeremysb1/png_images/blob/main/scheduled.png "Scheduled Missions")
 
