@@ -1,5 +1,15 @@
 # NASA Mission Control Project
 
-I am building this application with React, Hooks, and Node for the backend.
+I am building this application with React, Hooks, routing with express.js., Node, and MongoDB.
 
-It uses routing with express.js.
+I also use the SpaceX API.
+
+The purpose of this project was to expand my skills with Node and MongoDB.
+
+This application allows users to schedule launch missions, and view upcoming and past missions with NASA and SpaceX.
+
+![alt text](../client/public/img/homepage.png "Homepage")
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
