@@ -16,4 +16,6 @@ This application allows users to schedule launch missions, and view upcoming and
 
 ![Scheduled Missions](https://github.com/jeremysb1/png_images/blob/main/scheduled.png "Scheduled Missions")
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+## SpaceX Mission History
+
+![SpaceX Mission History](https://github.com/jeremysb1/png_images/blob/main/SpaceX%20Launch%20History.png "SpaceX Mission History")
