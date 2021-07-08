@@ -1,12 +1,23 @@
 # NASA Mission Control Project
 
-I am building this application with React, Hooks, routing with express.js., Node, and MongoDB.
+The purpose of this project was to expand my skills with Node, MongoDB, and the Model-View-Controller software design pattern. This application allows users to schedule launch missions, delete missions, and view upcoming and past missions with NASA and SpaceX. 
 
-I also use the SpaceX API.
+I built this application in the following steps:
 
-The purpose of this project was to expand my skills with Node and MongoDB.
+1.  Built the frontend with React and Hooks
+2.  Built the server with Node.js and express.js for routing
+3.  Connected the application to MongoDB
+4.  Added the SpaceX API 
+5.  Built and tested a pipeline with Github Actions
 
-This application allows users to schedule launch missions, and view upcoming and past missions with NASA and SpaceX.
+Next steps are:
+
+1. Run this project in a Docker Container
+2. Set up a EC2 instance inside AWS
+
+After I deploy it to the cloud, I will include the link to the application website to this repository.
+
+Below are project images. 
 
 ## Homepage
 
