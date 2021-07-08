@@ -8,7 +8,7 @@ I built this application in the following steps:
 2.  Built the server with Node.js and express.js for routing
 3.  Connected the application to MongoDB
 4.  Added the SpaceX API 
-5.  Built and tested a pipeline with Github Actions
+5.  Built and tested a CI pipeline with Github Actions
 
 Next steps are:
 
