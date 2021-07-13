@@ -9,11 +9,11 @@ I built this application in the following steps:
 3.  Connected the application to MongoDB
 4.  Added the SpaceX API 
 5.  Built and tested a CI pipeline with Github Actions
+6.  Created Docker image
 
 Next steps are:
 
-1. Run this project in a Docker Container
-2. Set up a EC2 instance inside AWS
+1. Set up a EC2 instance inside AWS
 
 After I deploy it to the cloud, I will include the link to the application website to this repository.
 
