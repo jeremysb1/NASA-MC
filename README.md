@@ -1,6 +1,8 @@
 # NASA Mission Control Project
 
-The purpose of this project was to expand my skills with Node, MongoDB, and the Model-View-Controller software design pattern. This application allows users to schedule launch missions, delete missions, and view upcoming and past missions with NASA and SpaceX. 
+The purpose of this project was to expand my skills with Node, MongoDB, and the Model-View-Controller software design pattern. 
+
+This CRUD-based app allows users to schedule launch missions, delete missions, and view upcoming and past missions with NASA and SpaceX. 
 
 I built this application in the following steps:
 
